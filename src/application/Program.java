@@ -39,6 +39,7 @@ public class Program {
 			}
 			else {
 				Employee emp = new Employee(name, hours, valuePerHour);
+				list.add(emp);
 			}
 		}
 		
